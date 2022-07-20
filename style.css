@@ -1,0 +1,42 @@
+* {
+    font-family: OpenSansCustom;
+    background-color: darkorange;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    border: 1px salmon;
+    width: 260px;
+    height: 205px;
+    margin: 5px;
+    background-color: aliceblue;
+}
+
+#formulario label{
+    background-color: aliceblue;
+}
+
+ .iText{
+    background-color: azure;
+}
+
+#botones {
+    background-color: aliceblue;
+}
+
+#btnSubmit, #btmMostrar {
+    margin-top: 25px;
+    width: 90px;
+    height: 30px;
+}
+
+#containerPrincipal{
+    display: flex;
+    flex-direction: row;
+}
+
+#displayTodos, #displayTodos p, #displayTodos strong, #displayTodos h3 {
+    background-color: aliceblue;
+    margin: 5px;
+}
