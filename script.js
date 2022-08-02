@@ -44,7 +44,7 @@ function agregarClientes(e) {
     e.preventDefault();
     validarForm();
     if (bandera == true) {
-        let opcion == confirm("Esta seguro de inscribirse como Cliente?");
+        let opcion = confirm("Esta seguro de inscribirse como Cliente?");
         if (opcion == true) {
             let formulario = e.target
             arrayClientes.push(new Cliente(nombreI, emailI, passwordI));
@@ -82,5 +82,4 @@ function MostrarTodosClientes(e) {
         <p><strong> Password: </strong> ${cliente.password}</p>
         <hr>`
     }
-}
 }
